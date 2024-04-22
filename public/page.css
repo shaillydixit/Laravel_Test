@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.form-container {
+    margin-top: 50px;
+}
+input[type="submit"] {
+    margin-top: 10px;
+}
+
+.submit-button-container {
+    text-align: center;
+}
+.error {
+    color: rgb(247, 54, 54);
+}
