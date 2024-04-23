@@ -57,3 +57,9 @@ $("input.mobile").keypress(function(event) {
         return false;
     }
 });
+
+function updateTime() {
+    var currentTime = new Date().toLocaleString("en-US", {timeZone: "Asia/Kolkata"});
+    document.getElementById("clock").textContent = "Current Time: " + currentTime;
+}
+setInterval(updateTime, 1000);

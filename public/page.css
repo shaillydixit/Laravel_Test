@@ -5,13 +5,15 @@ body {
 .form-container {
     margin-top: 50px;
 }
-input[type="submit"] {
-    margin-top: 10px;
-}
-
 .submit-button-container {
     text-align: center;
 }
 .error {
     color: rgb(247, 54, 54);
+}
+#clock {
+    color: rgb(2, 11, 135);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
 }
